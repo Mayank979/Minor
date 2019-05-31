@@ -1,0 +1,125 @@
+.img-thumbnail img{
+      height: 250px;
+      width: 100%;
+      /* display: flex;
+      flex-wrap: wrap; */
+    }
+
+.carousel-photos{
+  height:300px;
+  width: 300px;
+}
+
+.star-rating-input{
+  display:hidden;
+}
+
+#home-search{
+  align-content: center;
+}
+
+
+img.round_image{
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+}
+
+.photo-submit{
+  margin-bottom: 10px;
+}
+
+.more-images-place{
+  height:100px  !important;
+  margin-bottom: 10px !important;-
+}
+.img-thumbnail.show {
+        padding: 0;
+    }
+img.image-responsive.show-page {
+        height: 400px;
+    }
+
+.caption-full {
+        padding: 10px;
+    }
+
+.map_directions{
+    padding-bottom: 5px;
+}
+
+#map {
+ height: 400px;
+ width: 100%;
+}
+
+/* body{
+    background-color: #EFF1F4;
+} */
+
+/* input[type='file'] {
+  color: transparent;
+} */
+
+.add_photos{
+  display:inline;
+}
+
+/* .image-upload > input
+{
+    display: none;
+} */
+
+.image-upload img
+{
+    width: 80px;
+    cursor: pointer;
+}
+
+label.filebutton {
+    width:120px;
+    height:40px;
+    overflow:hidden;
+    position:relative;
+    background-color:#ccc;
+}
+
+label span input {
+    z-index: 999;
+    line-height: 0;
+    font-size: 50px;
+    position: absolute;
+    top: -2px;
+    left: -700px;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -ms-filter: "alpha(opacity=0)";
+    cursor: pointer;
+    _cursor: hand;
+    margin: 0;
+    padding:0;
+}
+
+
+.only-this-link-white{
+  color: white;
+}
+
+.only-this-link-white:hover{
+  color: white;
+}
+
+
+
+
+
+
+
+/* .image-upload.new {
+    opacity: 0.3;
+    filter: alpha(opacity=50); /* For IE8 and earlier
+}  */
+
+/* body{
+    background-color: #E6E6E6;
+} */

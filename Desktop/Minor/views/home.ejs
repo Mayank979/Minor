@@ -1,0 +1,116 @@
+<% include partials/header %>
+
+
+<!-- <form action="/" method="GET">
+    <div class="autocomplete">
+        <input type="text" placeholder="search category" name="search_category">
+        <input type="submit">
+      <div class="dialog">
+      </div>
+    </div>
+</form>
+ -->
+
+
+
+
+<!-- <textarea class="textspeech"  rows="8" cols="80"></textarea> -->
+
+
+
+ <!-- <p>
+  <form action="/" method="GET" class="form-inline">
+      <input type="text" name="search" class="form-control" placeholder="Search for a place..." class="form-group">
+      <button class="btn btn-primary" class="form-group">Search</button>
+  </form>
+</p> -->
+
+<!-- <ul class="list-group">
+  <h3>category</h3>
+  <% Category.forEach(function(categories){%>
+    <% categories.category.forEach(function(categories){%>
+    <li><a href="/<%=categories%>"><%= categories%></a></li>
+    <%})%>
+  <%})%>
+</ul>
+  -->
+<header class="img1">
+ <div  id="div-on">
+  <div class="search">
+     <form action="/" method="GET" class="form-inline search_home">
+         <input type="text" name="search" class="form-control search_home" size=50 placeholder="Search for a place..." class="form-group">
+         <button class="btn btn-success form-control" class="form-group">Search</button>
+     </form>
+
+  <div  class="review">
+    <form class="form-inline write_review">
+       <button type="button" class="btn btn-danger write-review-home"><a href="/new" class="only-this-link-white">Add a Place</a></button>
+    </form>
+  </div>
+  </div>
+</div>
+</header>
+
+
+<!-- <div class="img2">
+    <div class="container">
+      <div id="allCategory">
+        <h1>
+          All Categories
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="panel panel-primary">
+            <div class="panel-body"><img src="https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconexperience.com%2F_img%2Fg_collection_png%2Fstandard%2F512x512%2Fhospital.png&f=1" class="img-responsive" style="width:100%" alt="Image"></div>
+            <div class="panel-footer">Hospitals</div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="panel panel-primary">
+            <div class="panel-body"><img src="D:\Minor\images\theatre.png" class="img-responsive" style="width:100%" alt="Image"></div>
+            <div class="panel-footer">Electronics</div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="panel panel-primary">
+            <div class="panel-body"><img src="D:\Minor\images\theatre.png" class="img-responsive" style="width:100%" alt="Image"></div>
+            <div class="panel-footer">Malls</div>
+          </div>
+        </div>
+          <div class="col-sm-2">
+            <div class="panel panel-primary">
+              <div class="panel-body"><img src="D:\Minor\images\theatre.png" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">Street food</div>
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="panel panel-primary">
+              <div class="panel-body"><img src="D:\Minor\images\theatre.png" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">Theatres</div>
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="panel panel-primary">
+              <div class="panel-body"><img src="D:\Minor\images\theatre.png" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">Restaurants</div>
+            </div>
+          </div>
+
+        </div>
+  </div> -->
+
+
+
+<script>
+  window.onload = function(){
+    $(".search_home").val("");
+  };
+</script>
+
+
+
+
+<% include partials/footer %>

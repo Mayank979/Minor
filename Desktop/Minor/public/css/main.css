@@ -1,0 +1,63 @@
+.index-page-place-name {
+  color: rgb(255);
+}
+
+/* body{
+  background-color: rgb(210, 224, 224);
+} */
+
+.viewMore{
+  margin-top: 35px;
+}
+
+hr{
+    border-color: black;
+    border-width: 2px;
+}
+
+.jumbotron{
+  padding-top: 20px;
+  padding-bottom: 12px;
+  background-color: rgb(155, 155, 155)
+}
+
+.navbar-brand{
+  margin-left: 110px;
+}
+
+.jumbotron p{
+  margin-left: 95px;
+}
+
+.navbar{
+  /* background: linear-gradient(to bottom, rgb(229, 16, 48), rgb(81, 39, 45)); */
+  /* background-color: rgb(190); */
+
+}
+
+.dropSignOut{
+  margin-left: 8px;
+}
+
+.img-thumb{
+  max-width: 140px;
+  max-height: 140px;
+}
+
+/* .details{
+  border-width:5px;
+  border-style:solid;
+  border-color: #bec7d3;
+} */
+
+.viewMore{
+  margin-top: 10px;
+}
+
+.btn-add-review{
+  margin-top: 10px;
+}
+
+.star-btn-fill{
+  color: yellow;
+}

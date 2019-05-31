@@ -1,0 +1,203 @@
+
+.img1 {
+  background-image : url("https://media.npr.org/assets/img/2015/08/20/peer-reviews-istock_custom-07d0307ae26af11b698c79b46aedca57ba0c4b32-s900-c85.jpg");
+  background-repeat: no-repeat;
+  display:block !important;
+  background-size: cover;
+  background-position: left top;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+h1{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* .img2 {
+  background-image : url("https://images.unsplash.com/photo-1518731903023-4fea2a919abf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fcada5bd9e7ef8e6079d05a943ee66ae&auto=format&fit=crop&w=750&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: hidden;
+} */
+
+/* .img1 {
+  background-image : url("https://www.elegantthemes.com/blog/wp-content/uploads/2017/05/design-review.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: hidden;
+} */
+
+
+
+ /* body {
+  background-image : url("https://media.npr.org/assets/img/2015/08/20/peer-reviews-istock_custom-07d0307ae26af11b698c79b46aedca57ba0c4b32-s900-c85.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  height: 100vh;
+  overflow-y: hidden;
+} */
+
+
+.search{
+  margin-top: 250px !important;
+  text-align : center;
+}
+
+.search_home {
+margin-left: 200px;
+margin-top: 0px !important;
+}
+
+ .write-review-home{
+   margin-left: 600px;
+ }
+
+.review{
+  margin-top: 50px;
+  margin-bottom: 275px;
+  text-align : center;
+}
+
+.or h1{
+  margin-top: 50px;
+  text-align: center;
+  color: black;
+}
+
+h1{
+  color: black;
+}
+
+#allCategory{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+hr {
+  border-color: black;
+  margin-top: 50px;
+}
+
+.write_review{
+  margin-top: 100px;
+}
+
+/*Contact */
+
+.contact-text{
+    margin:45px auto;
+}
+/* Contact Form */
+#contact .contact-form{
+    margin: 0 auto;
+    padding:25px 25px 0px 25px;
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.2);
+    /* -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.2); */
+}
+
+#contact{
+  margin-bottom: 15px;
+}
+
+.mail-message-area{
+    width:100%;
+    padding:0 15px;
+}
+
+.mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+}
+
+.not-visible-message{
+    height:0px;
+    opacity: 0;
+}
+
+.visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+}
+
+.inner.contact {
+    padding: 50px 0;
+}
+
+/* Input Styles */
+
+.form {
+    width: 100% !important;
+    padding: 16.94px !important;
+    /* background:#E2E2E2; */
+    border: 1px solid rgba(13, 12, 12, 0.23) !important;
+    margin-bottom:25px !important;
+    color:#727272 !important;
+    font-size:13px !important;
+    -webkit-transition: all 0.4s !important;
+    -moz-transition: all 0.4s !important;
+    transition: all 0.4s !important;
+}
+
+.form:hover{
+    border:1px solid #8BC3A3;
+}
+
+.form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+}
+
+.textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.opinion {
+  text-align: center;
+}
+
+footer.sub_footer {
+    background-color: #1C1C1C;
+    padding: 20px;
+}
+
+p.sub-footer-text{
+    color: #6B6B6B;
+}
+
+p.sub-footer-text a{
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.search_home{
+  margin-top: 20px;
+}
+
+#submit{
+  margin-left: 200px;
+}

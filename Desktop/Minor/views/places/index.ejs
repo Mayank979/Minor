@@ -1,0 +1,49 @@
+<% include ../partials/header%>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <ul>
+        <% category.forEach(function(category){%>
+          <li>
+            <a href="<%= category%>">
+              <%= category%>
+            </a>
+          </li>
+          <% }) %>
+        </ul>
+      </div>
+      <div class="col-md-10">
+        <div class="row">
+          <% if(places){%>
+            <% places.forEach(function(place){%>
+          <div class="col-md-2">
+            <div class="img-thumbnail show">
+                <img src="<%= place.image[0].path%>" alt="" class="image-responsive img-thumb">
+            </div>
+          </div>
+          <div class="col-md-10 details">
+              <h4 class="index-page-place-name"><%= place.name[0].toUpperCase()%><%=place.name.slice(1)%></h4>
+              <h5><%= place.address%></h5>
+              <% if(!place.rating){ %>
+
+                <%} else{%>
+                  <span class="rating" style="font-size:1.4em"><%= place.rating.toFixed(1)%></span><i class="fa fa-star star-btn-fill" aria-hidden="true"></i>
+              <%}%>
+              <h5><a href="<%=place.category%>"><%= place.category%></a></h5>
+              <h6><button class="btn btn-info viewMore"><a href="<%= place.category%>/<%= place._id%>" class="only-this-link-white">View more</a></button></h6>
+          </div>
+
+            <% }) %>
+          <%}%>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+<% include ../partials/footer%>
